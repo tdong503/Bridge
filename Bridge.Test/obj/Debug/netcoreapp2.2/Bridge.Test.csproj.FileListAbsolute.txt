@@ -1,0 +1,17 @@
+C:\Users\Falcom\RiderProjects\Bridge\Bridge.Test\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Falcom\RiderProjects\Bridge\Bridge.Test\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Falcom\RiderProjects\Bridge\Bridge.Test\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Falcom\RiderProjects\Bridge\Bridge.Test\bin\Debug\netcoreapp2.2\Bridge.Test.deps.json
+C:\Users\Falcom\RiderProjects\Bridge\Bridge.Test\bin\Debug\netcoreapp2.2\Bridge.Test.runtimeconfig.json
+C:\Users\Falcom\RiderProjects\Bridge\Bridge.Test\bin\Debug\netcoreapp2.2\Bridge.Test.runtimeconfig.dev.json
+C:\Users\Falcom\RiderProjects\Bridge\Bridge.Test\bin\Debug\netcoreapp2.2\Bridge.Test.dll
+C:\Users\Falcom\RiderProjects\Bridge\Bridge.Test\bin\Debug\netcoreapp2.2\Bridge.Test.pdb
+C:\Users\Falcom\RiderProjects\Bridge\Bridge.Test\bin\Debug\netcoreapp2.2\Bridge.dll
+C:\Users\Falcom\RiderProjects\Bridge\Bridge.Test\bin\Debug\netcoreapp2.2\Bridge.pdb
+C:\Users\Falcom\RiderProjects\Bridge\Bridge.Test\obj\Debug\netcoreapp2.2\Bridge.Test.csprojAssemblyReference.cache
+C:\Users\Falcom\RiderProjects\Bridge\Bridge.Test\obj\Debug\netcoreapp2.2\Bridge.Test.csproj.CoreCompileInputs.cache
+C:\Users\Falcom\RiderProjects\Bridge\Bridge.Test\obj\Debug\netcoreapp2.2\Bridge.Test.AssemblyInfoInputs.cache
+C:\Users\Falcom\RiderProjects\Bridge\Bridge.Test\obj\Debug\netcoreapp2.2\Bridge.Test.AssemblyInfo.cs
+C:\Users\Falcom\RiderProjects\Bridge\Bridge.Test\obj\Debug\netcoreapp2.2\Bridge.Test.csproj.CopyComplete
+C:\Users\Falcom\RiderProjects\Bridge\Bridge.Test\obj\Debug\netcoreapp2.2\Bridge.Test.dll
+C:\Users\Falcom\RiderProjects\Bridge\Bridge.Test\obj\Debug\netcoreapp2.2\Bridge.Test.pdb

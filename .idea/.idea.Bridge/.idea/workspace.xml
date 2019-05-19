@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8ea6ffed-1efb-4b89-920f-c28757362c6e" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bridge/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+              <folding>
+                <marker date="1558260817999" expanded="false" signature="6:67" ph="..." />
+                <marker date="1558260817999" expanded="true" signature="85:823" ph="{...}" />
+                <marker date="1558260817999" expanded="true" signature="112:821" ph="{...}" />
+                <marker date="1558260817999" expanded="true" signature="158:225" ph="{...}" />
+                <marker date="1558260817999" expanded="true" signature="301:815" ph="{...}" />
+                <marker date="1558260817999" expanded="true" signature="367:525" ph="{...}" />
+                <marker date="1558260817999" expanded="true" signature="582:723" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bridge/Common.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="35" column="46" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="46" />
+              <folding>
+                <marker date="1558273666780" expanded="false" signature="6:86" ph="..." />
+                <marker date="1558273666780" expanded="true" signature="104:1185" ph="{...}" />
+                <marker date="1558273666780" expanded="true" signature="137:1183" ph="{...}" />
+                <marker date="1558273666780" expanded="true" signature="227:666" ph="{...}" />
+                <marker date="1558273666780" expanded="true" signature="330:626" ph="{...}" />
+                <marker date="1558273666780" expanded="true" signature="401:610" ph="{...}" />
+                <marker date="1558273666780" expanded="true" signature="723:861" ph="{...}" />
+                <marker date="1558273666780" expanded="true" signature="915:1019" ph="{...}" />
+                <marker date="1558273666780" expanded="true" signature="1085:1177" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bridge/Bridge.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding>
+                <marker date="1558259953882" expanded="true" signature="37:250" ph="{...}" />
+                <marker date="1558259953882" expanded="true" signature="70:248" ph="{...}" />
+                <marker date="1558259953882" expanded="true" signature="166:242" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bridge.Test/Bridge.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+              <folding>
+                <marker date="1558273202653" expanded="false" signature="6:162" ph="..." />
+                <marker date="1558273202653" expanded="true" signature="185:2197" ph="{...}" />
+                <marker date="1558273202653" expanded="true" signature="211:2195" ph="{...}" />
+                <marker date="1558273202653" expanded="true" signature="666:815" ph="{...}" />
+                <marker date="1558273202653" expanded="true" signature="878:1502" ph="{...}" />
+                <marker date="1558273202653" expanded="true" signature="944:1350" ph="{...}" />
+                <marker date="1558273202653" expanded="true" signature="1573:2189" ph="{...}" />
+                <marker date="1558273202653" expanded="true" signature="1638:2046" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bridge/Model/Enum.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+              <folding>
+                <marker date="1558259692641" expanded="true" signature="52:1074" ph="{...}" />
+                <marker date="1558259692641" expanded="true" signature="81:122" ph="{...}" />
+                <marker date="1558259692641" expanded="true" signature="154:205" ph="{...}" />
+                <marker date="1558259692641" expanded="true" signature="232:410" ph="{...}" />
+                <marker date="1558259692641" expanded="true" signature="440:989" ph="{...}" />
+                <marker date="1558259692641" expanded="true" signature="1017:1072" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bridge/Model/Card.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <folding>
+                <marker date="1558236863642" expanded="true" signature="22:155" ph="{...}" />
+                <marker date="1558236863642" expanded="true" signature="46:153" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bridge/Model/HandCards.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+              <folding>
+                <marker date="1558273881058" expanded="true" signature="57:380" ph="{...}" />
+                <marker date="1558273881058" expanded="true" signature="86:378" ph="{...}" />
+                <marker date="1558273881058" expanded="true" signature="119:227" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bridge/DistinguishCardType.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+              <folding>
+                <marker date="1558269849303" expanded="true" signature="6:53" ph="..." />
+                <marker date="1558269849303" expanded="true" signature="71:248" ph="{...}" />
+                <marker date="1558269849303" expanded="true" signature="117:246" ph="{...}" />
+                <marker date="1558269849303" expanded="true" signature="185:240" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bridge/CardTypeHandler/StraightFlush.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+              <folding>
+                <marker date="1558273998350" expanded="true" signature="6:53" ph="..." />
+                <marker date="1558273998350" expanded="true" signature="87:828" ph="{...}" />
+                <marker date="1558273998350" expanded="true" signature="131:826" ph="{...}" />
+                <marker date="1558273998350" expanded="true" signature="186:277" ph="{...}" />
+                <marker date="1558273998350" expanded="true" signature="358:820" ph="{...}" />
+                <marker date="1558273998350" expanded="true" signature="408:758" ph="{...}" />
+                <marker date="1558273998350" expanded="true" signature="505:588" ph="{...}" />
+                <marker date="1558273998350" expanded="true" signature="660:744" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bridge/CardTypeHandler/ICardType.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="9" column="73" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
+              <folding>
+                <marker date="1558270641555" expanded="false" signature="6:53" ph="..." />
+                <marker date="1558270641555" expanded="true" signature="87:260" ph="{...}" />
+                <marker date="1558270641555" expanded="true" signature="120:258" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Bridge.Test/Bridge.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bridge/Model/HandCards.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bridge/ICompare.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bridge/Common.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bridge/CardTypeHandler/ICardType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bridge/CardTypeHandler/StraightFlush.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bridge/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bridge/Model/Card.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bridge/Model/Enum.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bridge/DistinguishCardType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bridge/Bridge.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Bridge.Test/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/Bridge/Model/Menu.cs" />
+        <option value="$PROJECT_DIR$/Bridge/Compare.cs" />
+        <option value="$PROJECT_DIR$/Bridge/Model/Card.cs" />
+        <option value="$PROJECT_DIR$/Bridge/Model/Enum.cs" />
+        <option value="$PROJECT_DIR$/Bridge/Bridge.cs" />
+        <option value="$PROJECT_DIR$/Bridge/CardTypes/StraightFlush.cs" />
+        <option value="$PROJECT_DIR$/Bridge/CardTypes/ICardType.cs" />
+        <option value="$PROJECT_DIR$/Bridge/Program.cs" />
+        <option value="$PROJECT_DIR$/Bridge/DistinguishCardType.cs" />
+        <option value="$PROJECT_DIR$/Bridge/CardTypeHandler/ICardType.cs" />
+        <option value="$PROJECT_DIR$/Bridge.Test/Bridge.cs" />
+        <option value="$PROJECT_DIR$/Bridge/Common.cs" />
+        <option value="$PROJECT_DIR$/Bridge/Model/HandCards.cs" />
+        <option value="$PROJECT_DIR$/Bridge/CardTypeHandler/StraightFlush.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="100" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="820" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Bridge" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Bridge" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Bridge" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Bridge" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Bridge" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="CardTypeHandler" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Bridge" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Bridge" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Model" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Bridge" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Bridge.Test" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ea6ffed-1efb-4b89-920f-c28757362c6e" name="Default Changelist" comment="" />
+      <created>1558230044937</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558230044937</updated>
+      <workItem from="1558230046666" duration="5166000" />
+      <workItem from="1558259390621" duration="7116000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12282000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25321338" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" visible="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" visible="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="16" weight="0.32974428" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Bridge/CardTypeHandler/StraightFlush.cs</url>
+          <line>9</line>
+          <properties documentPath="$PROJECT_DIR$/Bridge/CardTypeHandler/StraightFlush.cs" initialLine="9">
+            <startOffsets>
+              <option value="209" />
+            </startOffsets>
+            <endOffsets>
+              <option value="266" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="RiderUnitTests">
+        <watch expression="cards.Count == cards.Count(c =&gt; c.Color == cards.First().Color)" />
+        <watch expression="cards.Count(c =&gt; c.Color == cards.First().Color)" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Bridge/ICompare.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding>
+            <marker date="1558235333749" expanded="true" signature="16:71" ph="{...}" />
+            <marker date="1558235333749" expanded="true" signature="48:69" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bridge/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <marker date="1558260817999" expanded="false" signature="6:67" ph="..." />
+            <marker date="1558260817999" expanded="true" signature="85:823" ph="{...}" />
+            <marker date="1558260817999" expanded="true" signature="112:821" ph="{...}" />
+            <marker date="1558260817999" expanded="true" signature="158:225" ph="{...}" />
+            <marker date="1558260817999" expanded="true" signature="301:815" ph="{...}" />
+            <marker date="1558260817999" expanded="true" signature="367:525" ph="{...}" />
+            <marker date="1558260817999" expanded="true" signature="582:723" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bridge/DistinguishCardType.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <marker date="1558269849303" expanded="true" signature="6:53" ph="..." />
+            <marker date="1558269849303" expanded="true" signature="71:248" ph="{...}" />
+            <marker date="1558269849303" expanded="true" signature="117:246" ph="{...}" />
+            <marker date="1558269849303" expanded="true" signature="185:240" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bridge/CardTypeHandler/ICardType.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="9" column="73" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
+          <folding>
+            <marker date="1558270641555" expanded="false" signature="6:53" ph="..." />
+            <marker date="1558270641555" expanded="true" signature="87:260" ph="{...}" />
+            <marker date="1558270641555" expanded="true" signature="120:258" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bridge/Model/Enum.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <marker date="1558259692641" expanded="true" signature="52:1074" ph="{...}" />
+            <marker date="1558259692641" expanded="true" signature="81:122" ph="{...}" />
+            <marker date="1558259692641" expanded="true" signature="154:205" ph="{...}" />
+            <marker date="1558259692641" expanded="true" signature="232:410" ph="{...}" />
+            <marker date="1558259692641" expanded="true" signature="440:989" ph="{...}" />
+            <marker date="1558259692641" expanded="true" signature="1017:1072" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bridge/Model/Card.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding>
+            <marker date="1558236863642" expanded="true" signature="22:155" ph="{...}" />
+            <marker date="1558236863642" expanded="true" signature="46:153" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bridge.Test/Bridge.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+          <folding>
+            <marker date="1558273202653" expanded="false" signature="6:162" ph="..." />
+            <marker date="1558273202653" expanded="true" signature="185:2197" ph="{...}" />
+            <marker date="1558273202653" expanded="true" signature="211:2195" ph="{...}" />
+            <marker date="1558273202653" expanded="true" signature="666:815" ph="{...}" />
+            <marker date="1558273202653" expanded="true" signature="878:1502" ph="{...}" />
+            <marker date="1558273202653" expanded="true" signature="944:1350" ph="{...}" />
+            <marker date="1558273202653" expanded="true" signature="1573:2189" ph="{...}" />
+            <marker date="1558273202653" expanded="true" signature="1638:2046" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bridge/Model/HandCards.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <marker date="1558273881058" expanded="true" signature="57:380" ph="{...}" />
+            <marker date="1558273881058" expanded="true" signature="86:378" ph="{...}" />
+            <marker date="1558273881058" expanded="true" signature="119:227" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bridge/Bridge.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <marker date="1558259953882" expanded="true" signature="37:250" ph="{...}" />
+            <marker date="1558259953882" expanded="true" signature="70:248" ph="{...}" />
+            <marker date="1558259953882" expanded="true" signature="166:242" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bridge/Common.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="35" column="46" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="46" />
+          <folding>
+            <marker date="1558273666780" expanded="false" signature="6:86" ph="..." />
+            <marker date="1558273666780" expanded="true" signature="104:1185" ph="{...}" />
+            <marker date="1558273666780" expanded="true" signature="137:1183" ph="{...}" />
+            <marker date="1558273666780" expanded="true" signature="227:666" ph="{...}" />
+            <marker date="1558273666780" expanded="true" signature="330:626" ph="{...}" />
+            <marker date="1558273666780" expanded="true" signature="401:610" ph="{...}" />
+            <marker date="1558273666780" expanded="true" signature="723:861" ph="{...}" />
+            <marker date="1558273666780" expanded="true" signature="915:1019" ph="{...}" />
+            <marker date="1558273666780" expanded="true" signature="1085:1177" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bridge/CardTypeHandler/StraightFlush.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <marker date="1558273998350" expanded="true" signature="6:53" ph="..." />
+            <marker date="1558273998350" expanded="true" signature="87:828" ph="{...}" />
+            <marker date="1558273998350" expanded="true" signature="131:826" ph="{...}" />
+            <marker date="1558273998350" expanded="true" signature="186:277" ph="{...}" />
+            <marker date="1558273998350" expanded="true" signature="358:820" ph="{...}" />
+            <marker date="1558273998350" expanded="true" signature="408:758" ph="{...}" />
+            <marker date="1558273998350" expanded="true" signature="505:588" ph="{...}" />
+            <marker date="1558273998350" expanded="true" signature="660:744" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
