@@ -13,18 +13,9 @@ namespace Bridge
 
         public string CompareHandCards(string handCardA, string handCardB)
         {
-            var blackGroup = new HandCards
-            {
-                GroupType = GroupTypes.Black,
-                Cards = Common.ConvertCardStringArrToList(handCardA.Split(' '))
-                
-            };
-            var whiteGroup = new HandCards
-            {
-                GroupType = GroupTypes.White,
-                Cards = Common.ConvertCardStringArrToList(handCardB.Split(' '))
-            };
-            
+            var blackGroup = new HandCard(GroupTypes.Black, Common.ConvertCardStringToList(handCardA));
+            var whiteGroup = new HandCard(GroupTypes.White, Common.ConvertCardStringToList(handCardB));
+
             return Bridge.CompareHandCards(blackGroup, whiteGroup);
         }
     }

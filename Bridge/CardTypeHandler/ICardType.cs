@@ -7,6 +7,6 @@ namespace Bridge.CardTypeHandler
     {
         bool IsThisType(List<Card> cards);
         
-        CompareResults Compare(HandCards handCardA, HandCards handCardB);
+        CompareResults Compare(HandCard handCardA, HandCard handCardB);
     }
 }

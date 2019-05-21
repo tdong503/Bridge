@@ -1,13 +1,16 @@
 using System.Collections.Generic;
+using System.Linq;
 using Bridge.Model;
 
 namespace Bridge.CardTypeHandler
 {
-    public class StraightFlush: ICardType
+    public class HighCard : ICardType
     {
         public bool IsThisType(List<Card> cards)
         {
-            return Common.IsFlush(cards) && Common.IsStraight(cards); 
+            var cardsGroup = cards.GroupBy(a => a.CardNumber).ToList();
+            
+            return !Common.IsFlush(cards) && !Common.IsStraight(cards) && cardsGroup.Count == 5;
         }
 
         public CompareResults Compare(HandCard handCardA, HandCard handCardB)

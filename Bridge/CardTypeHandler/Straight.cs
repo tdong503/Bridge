@@ -3,11 +3,11 @@ using Bridge.Model;
 
 namespace Bridge.CardTypeHandler
 {
-    public class StraightFlush: ICardType
+    public class Straight : ICardType
     {
         public bool IsThisType(List<Card> cards)
         {
-            return Common.IsFlush(cards) && Common.IsStraight(cards); 
+            return Common.IsStraight(cards);
         }
 
         public CompareResults Compare(HandCard handCardA, HandCard handCardB)

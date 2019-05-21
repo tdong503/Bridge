@@ -4,7 +4,7 @@ namespace Bridge
 {
     public static class Bridge
     {
-        public static string CompareHandCards(HandCards blackGroup, HandCards whiteGroup)
+        public static string CompareHandCards(HandCard blackGroup, HandCard whiteGroup)
         {
             throw new System.NotImplementedException();
         }
