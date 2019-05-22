@@ -1,6 +1,9 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
+using System.Reflection;
+using Bridge.CardTypeHandler;
 using Bridge.Model;
 
 namespace Bridge
@@ -27,7 +30,7 @@ namespace Bridge
         public static bool IsStraight(List<Card> cards)
         {
             cards = SortCardsFall(cards);
-            return cards.First().CardNumber - 4 == cards.Last().CardNumber;
+            return cards.First().CardNumber - 4 == cards.Last().CardNumber && cards.GroupBy(a => a.CardNumber).ToList().Count == cards.Count;
         }
 
         public static bool IsFlush(List<Card> cards)
@@ -35,7 +38,16 @@ namespace Bridge
             return cards.Count == cards.Count(c => c.Color == cards.First().Color);
         }
 
-        public static List<Card> SortCardsFall(List<Card> cards)
+        public static string GetDescription(this Enum enumName)
+        {
+            var description = string.Empty;
+            var fieldInfo = enumName.GetType().GetField(enumName.ToString());
+            var attributes = fieldInfo.GetCustomAttribute<DescriptionAttribute>();
+            description = attributes != null ? attributes.Description : enumName.ToString();
+            return description;
+        }
+
+        private static List<Card> SortCardsFall(IEnumerable<Card> cards)
         {
             return cards.OrderByDescending(o => o.CardNumber).ToList();
         }

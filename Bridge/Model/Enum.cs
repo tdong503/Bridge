@@ -17,14 +17,23 @@ namespace Bridge.Model
 
     public enum CardTypes
     {
+        [Description("high card")]
         HighCard,
+        [Description("pair")]
         Pair,
+        [Description("two pair")]
         TwoPair,
+        [Description("three of a kind")]
         ThreeOfAKind,
+        [Description("straight")]
         Straight,
+        [Description("flush")]
         Flush,
+        [Description("full house")]
         FullHouse,
+        [Description("four of a kind")]
         FourOfAKind,
+        [Description("straight flush")]
         StraightFlush
     }
     

@@ -13,25 +13,9 @@ namespace Bridge.CardTypeHandler
             return cardsGroup.Count(w => w.Count() == 2) == 2;
         }
 
-        public CompareResults Compare(HandCard handCardA, HandCard handCardB)
+        public string Compare(HandCard handCardA, HandCard handCardB)
         {
-            var cardsA = handCardA.Cards.GroupBy(a => a.CardNumber)
-                .Select(s => new {CardNumber = s.Key, Count = s.Count()}).OrderByDescending(o => o.Count).ThenByDescending(o => o.CardNumber).ToList();
-            var cardsB = handCardB.Cards.GroupBy(a => a.CardNumber)
-                .Select(s => new {CardNumber = s.Key, Count = s.Count()}).OrderByDescending(o => o.Count).ThenByDescending(o => o.CardNumber).ToList();
-
-            for (var i = 0; i < cardsA.Count; i++)
-            {
-                if (cardsA[i].CardNumber > cardsB[i].CardNumber)
-                {
-                    return CompareResults.Win;
-                } else if (handCardA.Cards[i].CardNumber < handCardB.Cards[i].CardNumber)
-                {
-                    return CompareResults.Lose;
-                }
-            }
-            
-            return CompareResults.Tie;
+            return CardTypeBase.CompareMultipleCardNumber(handCardA, handCardB);
         }
     }
 }

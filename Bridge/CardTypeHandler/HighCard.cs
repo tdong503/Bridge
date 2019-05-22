@@ -13,20 +13,9 @@ namespace Bridge.CardTypeHandler
             return !Common.IsFlush(cards) && !Common.IsStraight(cards) && cardsGroup.Count == 5;
         }
 
-        public CompareResults Compare(HandCard handCardA, HandCard handCardB)
+        public string Compare(HandCard handCardA, HandCard handCardB)
         {
-            for (var i = 0; i < 5; i++)
-            {
-                if (handCardA.Cards[i].CardNumber > handCardB.Cards[i].CardNumber)
-                {
-                    return CompareResults.Win;
-                } else if (handCardA.Cards[i].CardNumber < handCardB.Cards[i].CardNumber)
-                {
-                    return CompareResults.Lose;
-                }
-            }
-            
-            return CompareResults.Tie;
+            return CardTypeBase.CompareSingleCardNumber(handCardA, handCardB);
         }
     }
 }

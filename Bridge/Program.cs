@@ -10,43 +10,68 @@ namespace Bridge
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello World!");
+        }
+
+        public ServiceProvider SetDI()
+        {
             //set DI
             var serviceProvider = new ServiceCollection()
-                .AddSingleton<IBridgeCore, BridgeCore>()
-                .AddSingleton<Flush>()
-                .AddSingleton<FourOfAKind>()
-                .AddSingleton<StraightFlush>()
-                .AddSingleton(factory =>
+                .AddTransient<Compare>()
+                .AddTransient<HighCard>()
+                .AddTransient<Pair>()
+                .AddTransient<TwoPair>()
+                .AddTransient<ThreeOfAKind>()
+                .AddTransient<Straight>()
+                .AddTransient<Flush>()
+                .AddTransient<FullHouse>()
+                .AddTransient<FourOfAKind>()
+                .AddTransient<StraightFlush>()
+                .AddTransient(factory =>
                 {
                     ICardType Accesor(CardTypes key)
                     {
-                        if (key == CardTypes.StraightFlush)
+                        switch (key)
                         {
-                            return factory.GetService<StraightFlush>();
-                        }
-                        else
-                        {
-                            return factory.GetService<FourOfAKind>();
+                            case CardTypes.StraightFlush:
+                                return factory.GetService<StraightFlush>();
+                            case CardTypes.FourOfAKind:
+                                return factory.GetService<FourOfAKind>();
+                            case CardTypes.FullHouse:
+                                return factory.GetService<FullHouse>();
+                            case CardTypes.Flush:
+                                return factory.GetService<Flush>();
+                            case CardTypes.Straight:
+                                return factory.GetService<Straight>();
+                            case CardTypes.ThreeOfAKind:
+                                return factory.GetService<ThreeOfAKind>();
+                            case CardTypes.TwoPair:
+                                return factory.GetService<TwoPair>();
+                            case CardTypes.Pair:
+                                return factory.GetService<Pair>();
+                            default:
+                                return factory.GetService<HighCard>();
                         }
                     }
 
                     return (Func<CardTypes, ICardType>) Accesor;
                 })
                 .BuildServiceProvider();
-            
-            //start
-
-            var tt = serviceProvider.GetService<IBridgeCore>();
-            var dd = tt.Test(CardTypes.FourOfAKind);
-            Console.WriteLine("Hello World!");
+            return serviceProvider;
         }
 
-//        public string CompareHandCards(string handCardA, string handCardB)
-//        {
-//            var blackGroup = new HandCard(GroupTypes.Black, Common.ConvertCardStringToList(handCardA));
-//            var whiteGroup = new HandCard(GroupTypes.White, Common.ConvertCardStringToList(handCardB));
-//
-//            return Bridge.CompareHandCards(blackGroup, whiteGroup);
-//        }
+        public string CompareHandCards(string handCardA, string handCardB)
+        {
+            var serviceProvider = SetDI();
+
+            var cardListA = Common.ConvertCardStringToList(handCardA);
+            var cardListB = Common.ConvertCardStringToList(handCardB);
+            var bridge = serviceProvider.GetService<Compare>();
+
+            var blackGroup = new HandCard(GroupTypes.Black, cardListA, bridge.DistinguishCardTypes(cardListA));
+            var whiteGroup = new HandCard(GroupTypes.White, cardListB, bridge.DistinguishCardTypes(cardListB));
+
+            return bridge.CompareWith(blackGroup, whiteGroup);
+        }
     }
 }

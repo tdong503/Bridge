@@ -4,11 +4,11 @@ namespace Bridge.Model
 {
     public class HandCard
     {
-        public HandCard(GroupTypes groupType, List<Card> cards)
+        public HandCard(GroupTypes groupType, List<Card> cards, CardTypes cardType)
         {
             GroupType = groupType;
-            Cards = Common.SortCardsFall(cards);
-            CardType = CardTypes.Pair;
+            Cards = cards;
+            CardType = cardType;
         }
 
         public GroupTypes GroupType { get; private set; }
