@@ -44,15 +44,20 @@ namespace Bridge.Test
         }
 
         [Fact]
-        public void Test()
+        public void ConvertCardStringToListTest()
         {
-            var tt = Common.ConvertCardStringToList("4H 4D 5C 6S 6H");
+            var cardList = Common.ConvertCardStringToList("4H 4D 5C 6S 6H");
 
-            var ttGroup = tt.GroupBy(a => a.CardNumber).ToList();
-            
-            var cardNumA = ttGroup.Any(w => w.Count() == 2) && ttGroup.Count == 3;
-            
-            Assert.True(cardNumA);
+            Assert.Equal( CardNums.Four, cardList[0].CardNumber);
+            Assert.Equal( CardColors.H, cardList[0].Color);
+            Assert.Equal( CardNums.Four, cardList[1].CardNumber);
+            Assert.Equal( CardColors.D, cardList[1].Color);
+            Assert.Equal( CardNums.Five, cardList[2].CardNumber);
+            Assert.Equal( CardColors.C, cardList[2].Color);
+            Assert.Equal( CardNums.Six, cardList[3].CardNumber);
+            Assert.Equal( CardColors.S, cardList[3].Color);
+            Assert.Equal( CardNums.Six, cardList[4].CardNumber);
+            Assert.Equal( CardColors.H, cardList[4].Color);
         }
     }
 }
